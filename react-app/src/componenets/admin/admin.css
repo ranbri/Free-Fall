@@ -235,3 +235,12 @@ div#deleteModal {
     background-size: 100%;
     cursor: pointer;
 }
+
+.dateEdit{
+    margin:auto;
+    margin-top:10px;
+}
+.selectable{
+    position:relative;
+    left:40%;
+}

@@ -144,6 +144,8 @@ export class Admin extends Component<any, AdminState> {
             div.style.textDecoration = "underline dotted red";
             title.style.textDecoration = "underline dotted red";
             beginDate.style.display = "block";
+            beginDate.style.marginLeft = "80px";
+            endDate.style.marginLeft = "80px";
             endDate.style.display = "block";
             calender.style.display = "none";
             title.setAttribute("contentEditable", true);
@@ -420,7 +422,7 @@ export class Admin extends Component<any, AdminState> {
                             const inDateBegin = v.begin.toString().substr(0, 10)
                             const inDateEnd = v.end.toString().substr(0, 10)
                             return (
-                                <div className="card-admin" key={v.location + Math.random()} >
+                                <div className={"card-admin"}  key={v.location + Math.random()} >
                                     <div >
                                         <i className="x" id="x" onClick={this.deleteModal}>X</i>
                                         <div id="deleteModal" style={{ border: "1px solid red", width: "200px", margin: "auto", display: "none" }} >
@@ -441,7 +443,7 @@ export class Admin extends Component<any, AdminState> {
                                             {v.description}
                                         </div>
                                         <p>Price: <label>{v.price}</label>  &#x24;</p>
-                                        <div className="date" style={displayBlock}>
+                                        <div className="date selecDate" style={displayBlock}>
                                             <input type="date" name="beginDate" onChange={this.setEditBegin}
                                                 defaultValue={inDateBegin} style={displayNone} />
                                             <input type="date" name="endDate" onChange={this.setEditEnd}
@@ -452,10 +454,12 @@ export class Admin extends Component<any, AdminState> {
                                                 selectedDays={[from, { from, to }]}
                                             />
                                         </div>
-                                        <div id="FUP" style={displayNone}>
-                                            <label >Upload New Image</label>
-                                            <br />
-                                            <input type="file" accept="image/*" name="userImage" />
+                                        <div id="FUP" className="dateEdit" style={displayNone}>
+                                            <div>
+                                                <label >Upload New Image</label>
+                                                <br/>
+                                                <input type="file" accept="image/*" name="userImage" />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
