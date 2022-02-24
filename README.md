@@ -55,14 +55,11 @@
 
 [Product-Screenshots](https://github.com/ranbri/Free-Fall/tree/main/gallery)
 
-We at Dizzy Bank inc. do out best to make banking available to everyone!
+At Free Fall we hope u find the best vacation plan for the lowest price.
 
 Our Goals:
-* Simplify banking to people of all backgrounds.
-* Minimize interest rates and hidden bank fees.
-* Make our customers: :smile:
-
-With that in mind we made this bank on the ideas given from our founder & CEO Ran Bar Ilan to help others and bring people together.
+* easy to find bundles.
+* price change subscription.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -149,9 +146,6 @@ This is an example of how to list things you need to use the software and how to
    node app.js
    ```
    
-   
-#### where is MongoDB?
-###### it's running already thanks to MongoDB free cluster that is connected in server/bll/ logics files!
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -177,30 +171,18 @@ Don't forget to give the project a star! Thanks again!
 Ran Bar Ilan - [@Linked-in](https://www.linkedin.com/in/ran-bar-ilan/) - LinkedIn
 [@Facebook](https://www.facebook.com/ranbarilan) - Facebook
 
-Project Link: [https://github.com/ranbri/Dizzy-Bank](https://github.com/ranbri/Dizzy-Bank)
+Project Link: [https://github.com/ranbri/Free-Fall](https://github.com/ranbri/Free-Fall)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Components.ai Theme Generator](https://components.ai/theme/RGB-linear)
-* [Coolors.co color generator](https://coolors.co/)
-* [Netlify spinner library](https://netlify.app/)
-* [Charts.JS](https://www.chartjs.org/)
-* [Font Awesome](https://fontawesome.com)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## License:
 
 MIT License
 
-Copyright (c) [2022] [Ran Bar Ilan] for Dizzy Bank.
+Copyright (c) [2022] [Ran Bar Ilan] for Free Fall.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
