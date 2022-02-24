@@ -1,22 +1,17 @@
 
 
-# Welcome to your new bank!
+#Free Fall - for the vacationists.
 
-## Dizzy is a web based banking app for those who struggle with complicated finacncial terms.
-### Here you can : 
-#####                1.Wire money to Dizzy bank users.
-#####                2.Invest and sell stocks with realtime market information.
-#####                3.apply for a comfortable loan.
-#####                4.depoiste a check.
-#####                5.get information about all ur purchases.
-#####                6.contact admins.
+## the go to website for finding a great vacation for great prices.
+### What u can find : 
+#####                1.A prebuilt vacations around the world.
+#####                2.a subsctiption to check wether a discount is present.
 
 ### Or you can be an admin!
 #### Admins can:
-#####            1.Approve or decline a loan.
-#####            2.Approve a decline a check.
-#####            3.Cancel, reactivate, or delete cards.
-#####            4.contact users.
+#####            1.Add new vacation bundle.
+#####            2.edit existing vacation.
+#####            3.delete a vacation.
 
 #### Admin login information is:
 ##### email: admin
@@ -24,34 +19,24 @@
 
 
 #### Home Page:
-![This is an image](https://github.com/ranbri/Dizzy-Bank/blob/main/photos/User-account/home-page.png)
+![Home Page](https://github.com/ranbri/Free-Fall/blob/main/gallery/user-photos/Screen%20Shot%202022-02-24%20at%2018.33.13.png)
 
 #### Login Page:
-![This is an image](https://github.com/ranbri/Dizzy-Bank/blob/main/photos/User-account/login-page.png)
+![Login Page](https://github.com/ranbri/Free-Fall/blob/main/gallery/user-photos/Screen%20Shot%202022-02-24%20at%2018.33.28.png)
 
-#### Account Page:
-![This is an image](https://github.com/ranbri/Dizzy-Bank/blob/main/photos/User-account/my-account-page.png)
+#### My Vacations Page:
+![My Vacations Page](https://github.com/ranbri/Free-Fall/blob/main/gallery/user-photos/Screen%20Shot%202022-02-24%20at%2018.33.45.png)
 
-#### Balance and Payments Page:
-![This is an image](https://github.com/ranbri/Dizzy-Bank/blob/main/photos/User-account/messages-page.png)
-![This is an image](https://github.com/ranbri/Dizzy-Bank/blob/main/photos/User-account/money-move-page-2.png)
-![This is an image](https://github.com/ranbri/Dizzy-Bank/blob/main/photos/User-account/money-move-page-payments.png)
-
-#### Wire Money Page:
-![This is an image](https://github.com/ranbri/Dizzy-Bank/blob/main/photos/User-account/wire-page-1.png)
-![This is an image](https://github.com/ranbri/Dizzy-Bank/blob/main/photos/User-account/wire-page-2.png)
-
-#### Stocks Page:
-![This is an image](https://github.com/ranbri/Dizzy-Bank/blob/main/photos/User-account/stocks-page-1.png)
-![This is an image](https://github.com/ranbri/Dizzy-Bank/blob/main/photos/User-account/stocks-page-2.png)
-### Buy Stocks Page:
-![This is an image](https://github.com/ranbri/Dizzy-Bank/blob/main/photos/User-account/buy-stock-1.png)
-![This is an image](https://github.com/ranbri/Dizzy-Bank/blob/main/photos/User-account/buy-stock-2.png)
-![This is an image](https://github.com/ranbri/Dizzy-Bank/blob/main/photos/User-account/buy-stock-3.png)
-
-#### Credit Card Info Page:
-![This is an image](https://github.com/ranbri/Dizzy-Bank/blob/main/photos/User-account/credit-info-1.png)
-![This is an image](https://github.com/ranbri/Dizzy-Bank/blob/main/photos/User-account/credit-info-2.png)
-
-#### Messages Page:
-![This is an image](https://github.com/ranbri/Dizzy-Bank/blob/main/photos/User-account/messages-page.png)
+#### Admin Page:
+##### Login:
+![Admin Login](https://github.com/ranbri/Free-Fall/blob/main/gallery/admin-photos/Screen%20Shot%202022-02-24%20at%2018.35.33.png)
+#####  Homepage:
+![Admin Login](https://github.com/ranbri/Free-Fall/blob/main/gallery/admin-photos/Screen%20Shot%202022-02-24%20at%2019.03.30.png)
+#####  Add Vacation:
+![Add Vacation](https://github.com/ranbri/Free-Fall/blob/main/gallery/admin-photos/Screen%20Shot%202022-02-24%20at%2019.05.14.png)
+#####  Edit Vacation:
+![Edit Vacation](https://github.com/ranbri/Free-Fall/blob/main/gallery/admin-photos/Screen%20Shot%202022-02-24%20at%2019.03.30.png)
+#####  Delete Vacation:
+![Delete Vacation](https://github.com/ranbri/Free-Fall/blob/main/gallery/admin-photos/Screen%20Shot%202022-02-24%20at%2019.04.11.png)
+#####  Graph:
+![Graph](https://github.com/ranbri/Free-Fall/blob/main/gallery/admin-photos/Screen%20Shot%202022-02-24%20at%2019.04.22.png)
