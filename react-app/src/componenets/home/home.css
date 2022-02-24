@@ -1,0 +1,210 @@
+.log-btn , .btn-orange {
+    color:rgb(255, 197, 97);
+    font-weight: bolder;
+    text-decoration: underline white
+}
+.pink-btn {
+    color:rgb(255,50,191);
+    font-weight: bolder;
+    text-decoration: underline white
+}
+
+.login input {
+    border-radius: 4px;
+    border: 0.5px solid white;
+}
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 3px 10px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: relative;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #777;
+}
+
+.btn::after{
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+    transition: all .4s;
+}
+.btn-white::after {
+    background-color: #fff;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom .5s ease-out .75s;
+    animation-fill-mode: backwards;
+}
+
+/* Orange Button */
+
+.btn-orange {
+    background-color: rgb(255, 237, 206);
+    color: rgba(138, 138, 138, 0.63);
+    border: 0.5px solid white;
+    border-radius: 10px;
+}
+.btn-orange:hover {
+    background-color: #fff;
+    padding-right:15px;    
+    outline: hidden;
+}
+/* Pink Button */
+.btn-pink::after {
+    background-color: #fff;
+}
+.btn-pink {
+    background-color: rgb(255, 209, 209);
+    color: rgb(161, 161, 161);
+}
+
+/* --------------------------- */
+
+.header{
+    height: 100vh;
+    background-image: linear-gradient(
+      to right bottom,
+      #d5ba6fc5,
+      #b4289dc5),url("../../assets/images/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    clip-path: polygon(0 0, 100% 0, 100% 75vh,0 100%);
+    margin-top: -5px;
+    overflow: fixed
+}
+.logo-box{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.logo{
+    height: 60px;
+}
+
+.text-box{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+    text-align: center;
+}
+.heading-primary {
+    color: #fff;
+    text-transform: uppercase;
+
+    backface-visibility: hidden;
+    margin-bottom: 50px;
+}
+
+.heading-primary-main {
+    display: block; 
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 35px;
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+
+.heading-primary-sub {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 17.4px;
+    animation-name: moveInRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes moveInLeft {
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    80%{
+        transform: translateX(10px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight {
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    80%{
+        transform: translateX(-10px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInBottom {
+    0%{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .logo-box {
+        margin-top: -20px;
+        margin-left: -40px;
+        transform: scale(0.7);
+    }
+    .text-box{
+        margin-top: 20px;
+    }
+  }
+
+
+

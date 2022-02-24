@@ -1,0 +1,237 @@
+.admin {
+    background-color: rgb(255, 233, 136);
+    background-image: url("../../assets/images/background-admin.jpg");
+    background-repeat: repeat;
+}
+
+.admin tbody span {
+    color: white !important;
+    font-size: x-large;
+}
+
+.admin .DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside) {
+    background-color: white;
+    color: #333;
+    border-radius: 0px !important;
+    border: 1px solid #333;
+}
+
+.admin .DayPicker {
+    position: relative;
+    top: -70px;
+}
+
+.edit {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 1px solid lightskyblue;
+    border-radius: 50%;
+}
+
+.btn-blue {
+    border: 1px solid lightskyblue;
+    color: white;
+    background-color: rgba(187, 187, 187, 0.692);
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 5px;
+    outline: none;
+}
+
+.graph-btn {
+    outline: none;
+    color: white !important;
+    text-transform: uppercase;
+    background: transparent;
+    padding: 5px;
+    border: 2px solid white !important;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-left: 30px;
+    background-color: rgba(100, 141, 255, 0.603);
+}
+
+.graph-btn:hover {
+    color: #494949 !important;
+    border-radius: 50px;
+    border-color: #494949 !important;
+    transition: all 0.3s ease 0s;
+}
+
+.thick-btn {
+    height: 37.5px;
+    position: relative;
+    top: -2px;
+}
+
+#addCard {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: 4;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(51, 51, 51, 0.637);
+}
+
+#addCard table {
+    text-align: center;
+    margin: auto;
+    border: 1px solid white;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: #333;
+    border-radius: 8px;
+}
+
+#addCard table * {
+    padding: 5px;
+}
+
+.btn-teal {
+    background: rgb(50, 237, 255);
+    background: linear-gradient(61deg, rgb(50, 255, 228) 0%, rgb(30, 133, 250) 100%);
+    border-radius: 8px;
+    border: 0.6px solid white;
+    color: white;
+    font-weight: bolder;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.table-input {
+    color: white;
+    font-size: 12px;
+}
+
+.x {
+    top: 18px;
+    left: 48%;
+    color: red;
+    font-size: 20px;
+    margin: 0%;
+    border: 0.6px solid white;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    z-index: 4 !important;
+    font-weight: bolder;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.x:hover {
+    color: white;
+    border: 0.6px solid red;
+}
+
+/* ---------------------------------------------------- */
+
+.admin .container {
+    padding-bottom: 20px;
+}
+
+.card-admin {
+    display: inline-block;
+    width: 300px !important;
+    height: 650px !important;
+    overflow: hidden;
+    border-radius: 6px;
+    background: #333;
+    border: 0.5px solid white;
+    color: rgb(236, 233, 233);
+    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.2);
+    margin-left: 10px;
+    margin-top: 50px;
+    grid-column: span 3;
+    margin-bottom: 60px;
+}
+
+.card .card__image-container {
+    margin: -5rem -2rem -2rem -2rem;
+}
+
+.card__line {
+    opacity: 0;
+    animation: LineFadeIn .5s .6s forwards ease-in;
+}
+
+.card__image {
+    height: 100px;
+    opacity: 0;
+    animation: ImageFadeIn .8s .3s forwards;
+    border-radius: 6px;
+    border: 0.4px solid white;
+}
+
+@media only screen and (max-width: 1400px) {
+    .card-admin {
+        grid-column: span 4;
+        margin: auto;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .card-admin {
+        grid-column: span 6;
+        margin: auto;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .card-admin {
+        grid-column: span 12;
+        margin: auto;
+        margin-top: 50px;
+    }
+}
+
+div#deleteModal {
+    position: relative;
+    display: block;
+    top: -15px;
+    border-radius: 6px;
+    border: 1px solid white !important;
+}
+
+#deleteModal button:nth-of-type(2) {
+    position: relative;
+    top: -6px;
+    border: 0.6px solid green !important;
+    margin: 5px;
+}
+
+#deleteModal button:nth-of-type(1) {
+    position: relative;
+    top: -6px;
+    border: 0.6px solid red !important;
+    margin: 5px;
+}
+
+.card-admin div:nth-of-type(1) {
+    transform: scale(0.9);
+}
+
+
+.check {
+    position: relative;
+    left: -120px;
+    top: -108px;
+    background-image: url("../../assets/images/edit.png");
+    background: no-repeat;
+    display: inline-block;
+    background-size: 100%;
+    cursor: pointer;
+}

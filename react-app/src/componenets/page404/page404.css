@@ -1,0 +1,6 @@
+.page404 {
+    background-color: rgb(255, 136, 136);
+    transform: translateY(-5%);
+    height: 100%;
+    overflow: hidden;
+}

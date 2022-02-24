@@ -1,0 +1,100 @@
+.vacations{
+	background-color: rgb(136, 201, 255);
+	background-repeat: repeat;
+
+	width: 100%;
+	position: relative;
+	top: -23px;
+	padding-bottom: 20px;
+}
+
+.vacations .container DayPicker-Day DayPicker-Day--start DayPicker-Day--selected DayPicker-Day--disabled{
+	background-color: transparent !important;
+	border: 0.6px solid lightslategray !important;
+}
+
+
+.container {
+	padding-top: 10px;
+	display: grid; 
+	align-items: center; 
+    justify-content: center; 
+	height: 100%;
+	width: 100%;
+	grid-template-columns: repeat(12, 1fr); 
+	grid-template-rows: repeat(2, 1fr);
+}
+.container .following{
+	order: 1;
+}
+.container .not-following{
+	order: 2;
+}
+
+  .display{
+      width: 80%;
+      color: white;
+      margin-top: 50px;
+      margin-left: 50%;
+      transform: translate(-50%);
+      display: block;
+      
+  }
+  .vacation i{
+    margin-left: 20px;
+  }
+  
+.home h1, h2, h3 {
+    display: inline-block;
+    margin-left: 20px;
+}
+	.vacations .Selectable .DayPicker-Day--selected:not(.DayPicker-Day--start):not(.DayPicker-Day--end):not(.DayPicker-Day--outside) {
+	  background-color: transparent !important;
+	  border: 0.6px solid lightgray;
+	  color: #4a90e2;
+	  outline: none;
+	}
+	.vacations .DayPicker-Day--end{
+		background-color: #fafafa;
+		color: #333;
+		outline: none;
+
+	}
+	.vacations .DayPicker-Day--start{
+		background-color: #fafafa;
+		color: #333;
+		outline: none;
+
+		}
+	.vacations .Selectable .DayPicker-Day {
+	  border-radius: 0 !important;
+	  outline: none;
+
+	}
+	.vacations .Selectable .DayPicker-Day--start {
+	  border-top-left-radius: 50% !important;
+	  border-bottom-left-radius: 50% !important;
+	  outline: none;
+
+	}
+	.vacations .Selectable .DayPicker-Day--end {
+	  border-top-right-radius: 50% !important;
+	  border-bottom-right-radius: 50% !important;
+	  outline: none;
+	}
+	.vacations .Selectable {
+		border: 0.1px solid white;
+		transform: scale(0.7);
+		float: left;
+		margin-top: -30px;
+	}
+	.title {
+		display:block;
+		color: white;
+		position: relative;
+		top: 30px;
+		text-shadow: 2px 2px  lightgray;
+		-webkit-text-stroke-color: black;
+		-webkit-text-stroke-width: 0.4px;
+
+	}

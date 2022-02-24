@@ -1,0 +1,22 @@
+.layout nav {
+    position: relative;
+    z-index: 1;
+    top: 20px;
+}
+.layout main {
+    height: 100% !important;
+    position: relative;
+    text-align: center;
+    z-index: initial;
+}
+
+.layout textarea{
+    resize: none;
+}
+.layout{
+    width: 100% !important;
+    height: 100% !important;
+    position: relative;
+    top:-20px;
+
+}
