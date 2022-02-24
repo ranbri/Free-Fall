@@ -96,15 +96,18 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    git clone https://github.com/ranbri/Free-Fall.git
    ```
-2. Enter "client" folder
+2. Enter "react-app" folder
   ```sh
-  cd client
+  cd react-app
   ```
 3. Install NPM packages
    ```sh
    npm install
    ```
 4. Enter "server" folder
+   ```sh
+  cd ..
+  ```
   ```sh
   cd server
   ```
@@ -121,7 +124,7 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    new terminal
    ```
-3. Go to "client" folder
+3. Go to "react-app" folder
    ```sh
    cd react-app
    ```
