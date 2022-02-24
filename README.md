@@ -7,10 +7,10 @@
     <img src="https://github.com/ranbri/Free-Fall/blob/main/react-app/src/assets/logos/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Dizzy Bank.</h3>
+  <h3 align="center">Free Fall.</h3>
 
   <p align="center">
-    The bank that don't steal.
+    A must for the avid vacation enjoyer!
     <br />
     <a href="https://github.com/ranbri/Dizzy-Bank/blob/main/OVERVIEW.md"><strong>Project Overview »</strong></a>
     <br />
