@@ -72,11 +72,9 @@ With that in mind we made this bank on the ideas given from our founder & CEO Ra
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [Angular 13](https://angular.io/)
-* [Bootstrap 5.1](https://getbootstrap.com)
+* [React.TS](https://reactjs.org/)
 * [Node.js](https://nodejs.dev/)
-* [Json Web Token](https://jwt.io/introduction)
-* [MongoDB](https://www.mongodb.com/)
+* SQL
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -85,7 +83,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Instruction on how to install Dizzy in your computer:
+Instruction on how to install Free Fall in your computer:
 
 ### Prerequisites
 
@@ -99,7 +97,7 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/ranbri/Free-Fall.git
    ```
 2. Enter "client" folder
   ```sh
@@ -128,15 +126,15 @@ This is an example of how to list things you need to use the software and how to
    ```
 3. Go to "client" folder
    ```sh
-   cd client
+   cd react-app
    ```
-3. Start Angular app
+3. Start React app
   ```sh
-  ng serve
+  npm start
   ```
 4. open localhost in ur browser
    ```sh
-   http://localhost:4200/
+   http://localhost:3000/
    ```
 5. Open a new terminal
   ```sh
