@@ -12,11 +12,9 @@
   <p align="center">
     A must for the avid vacation enjoyer!
     <br />
-    <a href="https://github.com/ranbri/Dizzy-Bank/blob/main/OVERVIEW.md"><strong>Project Overview »</strong></a>
+    <a href="https://github.com/ranbri/Free-Fall/blob/main/OVERVIEW.md"><strong>Project Overview »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/ranbri/Dizzy-Bank/tree/main/photos">View Demo</a>
-    ·
     <a href="https://github.com/ranbri/Dizzy-Bank/issues">Report Bug</a>
     ·
     <a href="https://github.com/ranbri/Dizzy-Bank/pulls">Request Feature</a>
@@ -55,7 +53,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[Product-Screenshots](https://github.com/ranbri/Dizzy-Bank/tree/main/photos)
+[Product-Screenshots](https://github.com/ranbri/Free-Fall/tree/main/gallery)
 
 We at Dizzy Bank inc. do out best to make banking available to everyone!
 
